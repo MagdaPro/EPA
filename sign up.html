@@ -1,71 +1,59 @@
 <!DOCTYPE html>
 <!-- Created By CodingLab - www.codinglabweb.com -->
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <!---<title> Responsive Registration Form | CodingLab </title>--->
-    <link rel="stylesheet" href="sign up.css">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
+
+<head>
+  <meta charset="UTF-8">
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="t.css">
+  <title>Sign up</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
 <body>
-  <div class="container">
-    <div class="title">Registration</div>
-    <div class="content">
-      <form action="courses.html" method="post">
-        <div class="user-details">
-          <div class="input-box">
-            <span class="details">Full Name</span>
-            <input type="text" placeholder="Enter your name" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Username</span>
-            <input type="text" placeholder="Enter your username" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Email</span>
-            <input type="text" placeholder="Enter your email" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Phone Number</span>
-            <input type="text" placeholder="Enter your number" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Password</span>
-            <input type="text" placeholder="Enter your password" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Confirm Password</span>
-            <input type="text" placeholder="Confirm your password" required>
-          </div>
-        </div>
-        <div class="gender-details">
-          <input type="radio" name="gender" id="dot-1">
-          <input type="radio" name="gender" id="dot-2">
-          <input type="radio" name="gender" id="dot-3">
-          <span class="gender-title">Gender</span>
-          <div class="category">
-            <label for="dot-1">
-            <span class="dot one"></span>
-            <span class="gender">Male</span>
-          </label>
-          <label for="dot-2">
-            <span class="dot two"></span>
-            <span class="gender">Female</span>
-          </label>
-          <label for="dot-3">
-            <span class="dot three"></span>
-            <span class="gender">Prefer not to say</span>
-            </label>
-          </div>
-        </div>
-        <div class="button">
-         <input type="submit" value="Register"></a> 
-         
-        </div>
-      </form>
+
+
+  <div class="login">
+    <div class="mainnav">
+      <a href="log in.html" class="nonactive"> Login </a>
+      <a href="sign up.html" class="active"> Sign up </a>
+      <a href="index.html" class="nonactive"> Home </a>
+
     </div>
+    <form>
+
+
+
+      <input type="text" class="text" name="fullname">
+      <span>Full Name</span>
+      <br>
+
+      <br>
+      <input type="text" class="text" name="Contact">
+      <span>Contact</span>
+      <br>
+
+      <br>
+      <input type="text" class="text" name="username">
+      <span>username</span>
+      <br>
+
+      <br>
+      <input type="password" class="text" name="password">
+      <span>password</span>
+      <br>
+      <br>
+
+      <input type="password" class="text" name="password">
+      <span>Repeat Password</span>
+      <br>
+
+      <a href="log in.html"><button class="signin">
+        Sign up
+      </button></a>
+    </form>
+
   </div>
-
-</body>
-</html>
-
+  </body>
+  </html>
